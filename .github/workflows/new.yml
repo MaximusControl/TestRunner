@@ -1,0 +1,7 @@
+on: pull_request_review_comment
+
+jobs:
+  runit:
+    runs-on: self-hosted
+    steps:
+      - run: echo "Running the codes!!"
